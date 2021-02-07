@@ -1,0 +1,13 @@
+Exceção
+Nome completo
+Cargo Base
+Cargo em Comissão
+Remuneração do Mês
+Demais Elementos da Remuneração
+Remuneração Bruta
+Unidade
+Tp. Log
+Logadrouro
+Número
+Complemento
+Jornada
