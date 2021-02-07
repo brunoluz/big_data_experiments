@@ -1,0 +1,9 @@
+- Docker
+docker start sandbox-hdp
+docker start sandbox-proxy
+
+docker stop sandbox-hdp
+docker stop sandbox-proxy
+
+docker rm sandbox-hdp
+docker rm sandbox-proxy
