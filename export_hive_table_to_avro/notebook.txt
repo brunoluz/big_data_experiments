@@ -1,5 +1,5 @@
 [linux]
-sudo -u hdfs dfs -mkdir /playground
+sudo -u hdfs hadoop fs -mkdir /playground
 sudo -u hdfs hadoop fs -chmod 777 /playground
 hdfs dfs -mkdir /playground/remuneracao
 hdfs dfs -chmod 777 /playground/remuneracao
@@ -13,7 +13,6 @@ INSERT OVERWRITE DIRECTORY '/playground/remuneracao'
 [linux]
 
 # using hadoop
-IN=$(hadoop fs -ls /playground/remuneracao | sed 's/  */ /g' | cut -d\  -f 1,8 --output-delimiter=',' | grep ^- | cut -d, -f2 | xargs)
 IN=$(hdfs dfs -ls /playground/remuneracao | sed 's/  */ /g' | cut -d\  -f 1,8 --output-delimiter=',' | grep ^- | cut -d, -f2 | xargs)
 hadoop jar ~/avro-tools-1.10.1.jar concat ${IN} /playground/bigfile.avro
 
