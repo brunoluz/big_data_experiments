@@ -1,0 +1,3 @@
+Ambari > HDFS > Configurations > Advanced > core-site > Change Property
+FROM: hadoop.http.staticuser.user = dr.who
+TO: hadoop.http.staticuser.user = yarn

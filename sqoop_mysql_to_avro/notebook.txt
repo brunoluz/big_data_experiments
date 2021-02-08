@@ -1,0 +1,14 @@
+[linux]
+hdfs dfs -mkdir /playground/orders
+hdfs dfs -chmod 777 /playground/orders
+
+mysql -u root -p 
+hortonworks1
+
+CREATE DATABASE mysql_playground;
+USE mysql_playground;
+
+CREATE TABLE orders (order_id INTEGER, order_date DATE, item_id INTEGER);
+INSERT INTO orders values (1, “2018–12–28”, 1);
+
+sqoop import -Dmapreduce.job.classloader=true --connect jdbc:mysql://localhost/mysql_playground --driver com.mysql.jdbc.Driver --table orders -m 1 --username root --password hortonworks1 --target-dir /playground/orders3 --as-avrodatafile

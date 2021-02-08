@@ -1,0 +1,2 @@
+erro: User [dr.who] is not authorized to view the logs for container
+adicionar ao final da url: ?user.name=root
