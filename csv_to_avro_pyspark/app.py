@@ -5,7 +5,7 @@ import os
 current_dir = pathlib.Path().absolute()
 
 
-def teste():
+def convert_csv_to_avro():
     sc = pyspark.SparkContext('local[*]')
 
     csv_file = os.path.join(current_dir, 'dataset.csv')
@@ -15,4 +15,4 @@ def teste():
 
 
 if __name__ == '__main__':
-    teste()
+    convert_csv_to_avro()
