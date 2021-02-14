@@ -1,0 +1,4 @@
+mv /etc/yum.repos.d/ambari-hdp-1.repo /root
+mv /etc/yum.repos.d/ambari.repo /root
+mv /etc/yum.repos.d/hdp-solr.repo /root
+mv /etc/yum.repos.d/ius.repo /root
