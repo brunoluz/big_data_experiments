@@ -22,4 +22,5 @@ def execute(file):
 
 
 if __name__ == '__main__':
-    execute(os.path.join(current_dir, 'data_samples', 'dataset.csv'))
+    # execute(os.path.join(current_dir, 'data_samples', 'dataset.csv'))
+    execute(os.path.join(current_dir, 'data_samples', 'netflix_titles.csv'))
