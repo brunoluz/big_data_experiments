@@ -15,5 +15,5 @@ if __name__ == '__main__':
     spark = SparkSession(sc)
 
 
-    df = spark.read.format('cobol').option("copybook", 'file://' + copybook_file).load('file://' + ebcdic_file)
-    df.show()
+ #   df = spark.read.format('cobol').option("copybook", 'file://' + copybook_file).load('file://' + ebcdic_file)
+ #   df.show()
