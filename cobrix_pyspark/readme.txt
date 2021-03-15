@@ -4,3 +4,6 @@ source venv/bin/activate
 
 Environment variables:
 PYSPARK_SUBMIT_ARGS="--packages za.co.absa.cobrix:spark-cobol_2.12:2.2.1"
+
+Instalar hadoop/pyspark windows:
+https://phoenixnap.com/kb/install-spark-on-windows-10
