@@ -1,9 +1,8 @@
-source venv/bin/activate
-./venv/bin/spark-submit --packages za.co.absa.cobrix:spark-cobol_2.12:2.2.1 app.py
+Teste do projeto Open Source COBRIX (https://github.com/AbsaOSS/cobrix)
 
+Instruções
+- Simular uma instalação do Hadoop no computador (somente windows): https://phoenixnap.com/kb/install-spark-on-windows-10
+- Criar uma virtualenv e instalar as dependências do arquivo requirements.txt
+- executar o arquivo app.py
 
-Environment variables:
-PYSPARK_SUBMIT_ARGS="--packages za.co.absa.cobrix:spark-cobol_2.12:2.2.1"
-
-Instalar hadoop/pyspark windows:
-https://phoenixnap.com/kb/install-spark-on-windows-10
+;)
