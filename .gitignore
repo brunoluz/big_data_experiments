@@ -1,3 +1,4 @@
 .idea/
 venv*/
-
+hive_schema_evolution/*.avro
+hive_schema_evolution/*.avsc

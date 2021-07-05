@@ -5,11 +5,6 @@ http://sandbox-hdp.hortonworks.com:8088/ui2/#/cluster-overview - YARN UI
 http://sandbox-hdp.hortonworks.com:30800/ - Data Analytics Studio
 http://sandbox-hdp.hortonworks.com:9995/ - Zeppelin
 
-- SSH (VirtualBox)
-localhost:2122
-root
-hadoop
-
 - SSH (Docker)
 ssh root@sandbox-hdp.hortonworks.com -p 2222
 localhost:2222
